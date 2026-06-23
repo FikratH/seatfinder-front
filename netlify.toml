@@ -1,0 +1,8 @@
+[build]
+  command = "pnpm install && pnpm build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+  # Replace with your actual deployed backend URL before deploying.
+  NEXT_PUBLIC_API_URL = "https://seatfinder-api.onrender.com"

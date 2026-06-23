@@ -1,0 +1,37 @@
+{
+  "name": "seatfinder-front",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@tanstack/react-query": "^5.17.9",
+    "axios": "^1.6.5",
+    "qrcode": "^1.5.3",
+    "dayjs": "^1.11.10",
+    "lucide-react": "^0.309.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@types/qrcode": "^1.5.5",
+    "typescript": "^5.3.3",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.33",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
